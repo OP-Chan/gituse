@@ -17,9 +17,9 @@
         <div class="inner">
           <h1><a href="#" id="header_logo1">Logo</a></h1>
           <h2><a href="#" id="header_logo2">Logo2</a></h2>
-          <h3><button id="menu_icon">menu</button></h3>
-          <!-- 클릭해서 메뉴창을 띄우고 싶은데 방법을 모르겠음.
+          <h3><button id="menu_icon" onclick="open_sidebar()">menu</button></h3>
           <div id="side_menu">
+            <a href="#" style="color: white; font-size: 24px; font-weight: bold" onclick="close_sidebar()">X</a>
             <h1>브랜드스토리</h1>
             <ul class="side_menu1 side_menu">
               <li><a href="#">스시로 소개</a></li>
@@ -43,7 +43,6 @@
               <li><a href="#">가까운 매장 찾기</a></li>
             </ul>
           </div>
-          -->
           <div id="nav_box">
             <ul id="nav">
               <li><a href="./brandstory_page1.html">브랜드스토리</a></li>
@@ -248,5 +247,6 @@
         </div>
       </footer>
     </div>
+    <script src="./brandstory_js/brandstory1.js"></script>
   </body>
 </html>

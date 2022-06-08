@@ -59,34 +59,33 @@
   background: url(../img/menu_icon.png);
   background-size: 100% 100%;
 }
-/* 클릭해서 메뉴창띄우고싶은데 방법을 모르겠음.
+
 #side_menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 0;
+  height: 100%;
+  padding-top: 30px;
   text-align: center;
-  background-color: white;
+  color: white;
+  background-color: rgba(0, 0, 0);
   z-index: 11;
-  visibility: hidden;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
 #side_menu > h1 {
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-
-.side_menu {
-  border: 2px solid black;
+  padding: 20px 0;
 }
 
 .side_menu li a {
   display: inline-block;
   padding: 5px 0;
   font-size: 24px;
-  color: black;
+  color: white;
 }
-*/
+
 #nav_box {
   width: 55%;
   display: grid;
